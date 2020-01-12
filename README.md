@@ -53,3 +53,19 @@ Select the "addin" file you build in the path "...\AddInEditor_ProconwinImport\b
 The AddIn is now listed.
 
 ![Alt text](README_res/display_addin.png?raw=true "Title")
+
+## Use the Addin
+
+Open the AddIn now via the Dialog
+
+![Alt text](README_res/open_addin.png?raw=true "Title")
+
+AddIn can be found in the Tree at "Import/Export" as "ProconWin"
+
+![Alt text](README_res/open2_addin.png?raw=true "Title")
+
+Now map the Files you created in ProconWin before and Push the Start Button
+
+![Alt text](README_res/open3_addin.png?raw=true "Title")
+
+Now the AddIn automatical read the file and add the PLCTag Step by Step - we spend about three minutes to Import about 7000 Tags.
