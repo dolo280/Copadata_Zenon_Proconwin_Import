@@ -9,7 +9,10 @@ The current version is limited to import ProconWin PLCTags that was connected to
 
 ## Export in ProconWin
 
-The export in ProconWin itself is very easy, no additional configuration has to be done.
-
-![Alt text](README_res/Alarmmeldungen.png?raw=true "Title")
+### Export PLC-Tags
+The export in ProconWin itself is very easy, no additional configuration has to be done. In ProconWin select "Prozessvariablen" -> "Prozessvariablen bearbeiten", in the new Window select "Datei" -> "Export". A MessageBox apears showing in wich directions the file was exported to.
 ![Alt text](README_res/Export.png?raw=true "Title")
+
+### Export Alertlist
+In Main Programmwindow select "Alarme" -> "Alarmimport/-export". Leafe settings default and Press "Export starten"
+![Alt text](README_res/Alarmmeldungen.png?raw=true "Title")
