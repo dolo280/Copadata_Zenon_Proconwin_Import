@@ -24,4 +24,7 @@ The AddIn can be used in two ways: compile itself or use the existing binary pub
 
 ### Compile the Programcode
 
-There are some Library that a nessessary for compile the code. The Library can be importet via the NuGet-Manager.
+There are some Library that a nessessary for compile the code. The Library can be importet via the NuGet-Manager. Use the Package Manager to restore: 
+```
+Install-Package CsvHelper
+```
