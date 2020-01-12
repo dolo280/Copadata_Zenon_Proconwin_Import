@@ -27,4 +27,15 @@ The AddIn can be used in two ways: compile itself or use the existing binary pub
 There are some Library that a nessessary for compile the code. The Library can be importet via the NuGet-Manager. Use the Package Manager to restore: 
 ```
 Install-Package CsvHelper
+Install-Package Microsoft.CSharp
+Install-Package System.ValueTuple
 ```
+(If you use a modern Tool like Visual Studio 2019 you may get the suggestion to restore missing packages, you can also to it this way)
+
+Than you can create to AddIn by build the code
+
+![Alt text](README_res/Create.png?raw=true "Title")
+
+## Add the Addin to Copadata Zenon
+
+Next step is to add the AddIn to Zenon, this can easie be done by 
