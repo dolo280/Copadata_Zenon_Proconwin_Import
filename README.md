@@ -38,4 +38,18 @@ Than you can create to AddIn by build the code
 
 ## Add the Addin to Copadata Zenon
 
-Next step is to add the AddIn to Zenon, this can easie be done by 
+Next step is to add the AddIn to Zenon, this can easie be done. Open the AddIn Manager:
+
+![Alt text](README_res/manage_addin.png?raw=true "Title")
+
+And Import a new AddIn:
+
+![Alt text](README_res/adde_addin.png?raw=true "Title")
+
+Select the "addin" file you build in the path "...\AddInEditor_ProconwinImport\bin\Debug"
+
+![Alt text](README_res/sel_addin.png?raw=true "Title")
+
+The AddIn is now listed.
+
+![Alt text](README_res/display_addin.png?raw=true "Title")
