@@ -11,8 +11,17 @@ The current version is limited to import ProconWin PLCTags that was connected to
 
 ### Export PLC-Tags
 The export in ProconWin itself is very easy, no additional configuration has to be done. In ProconWin select "Prozessvariablen" -> "Prozessvariablen bearbeiten", in the new Window select "Datei" -> "Export". A MessageBox apears showing in wich directions the file was exported to.
+
 ![Alt text](README_res/Export.png?raw=true "Title")
 
 ### Export Alertlist
 In Main Programmwindow select "Alarme" -> "Alarmimport/-export". Leafe settings default and Press "Export starten"
+
 ![Alt text](README_res/Alarmmeldungen.png?raw=true "Title")
+
+## Use the AddIn to Import to Zenon
+The AddIn can be used in two ways: compile itself or use the existing binary publised here in Github.
+
+### Compile the Programcode
+
+There are some Library that a nessessary for compile the code. The Library can be importet via the NuGet-Manager.
